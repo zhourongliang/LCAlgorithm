@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		619A9FFA255942AA00546EE2 /* 704. Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */; };
+		619A9FFD25595F5700546EE2 /* 74. Search a 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */; };
 		61A9F16B2550F1F00022FE13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9F16A2550F1F00022FE13 /* main.swift */; };
 		61A9F1722550F32A0022FE13 /* 11. Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9F1712550F32A0022FE13 /* 11. Container With Most Water.swift */; };
 		61A9F17425512D860022FE13 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9F17325512D860022FE13 /* 7. Reverse Integer.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. Binary Search.swift"; sourceTree = "<group>"; };
+		619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "74. Search a 2D Matrix.swift"; sourceTree = "<group>"; };
 		61A9F1672550F1F00022FE13 /* AlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A9F16A2550F1F00022FE13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		61A9F1712550F32A0022FE13 /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				61A9F17325512D860022FE13 /* 7. Reverse Integer.swift */,
 				61A9F1712550F32A0022FE13 /* 11. Container With Most Water.swift */,
 				61A9F175255389AE0022FE13 /* 13. Roman to Integer.swift */,
+				619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */,
 				619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */,
 			);
 			path = AlgorithmPractice;
@@ -134,6 +137,7 @@
 			files = (
 				619A9FFA255942AA00546EE2 /* 704. Binary Search.swift in Sources */,
 				61A9F16B2550F1F00022FE13 /* main.swift in Sources */,
+				619A9FFD25595F5700546EE2 /* 74. Search a 2D Matrix.swift in Sources */,
 				61A9F176255389AE0022FE13 /* 13. Roman to Integer.swift in Sources */,
 				61A9F1722550F32A0022FE13 /* 11. Container With Most Water.swift in Sources */,
 				61A9F17425512D860022FE13 /* 7. Reverse Integer.swift in Sources */,

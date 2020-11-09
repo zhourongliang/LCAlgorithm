@@ -9,6 +9,7 @@
 import Foundation
 
 class Solution704 {
+    // 经典的二叉搜索
     func search(_ nums: [Int], _ target: Int) -> Int {
         guard nums.count > 0 else {
             return -1
@@ -27,4 +28,6 @@ class Solution704 {
         }
         return -1
     }
+    
+    // 变种1，二维的二叉搜索,见 74.Search a 2D Matrix
 }

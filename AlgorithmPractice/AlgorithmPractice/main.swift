@@ -29,13 +29,16 @@ import Foundation
 //print(solution13.romanToInt("MCMXCIV"))
 
 // MARK: - 74. Search a 2D Matrix
-let solution74 = Solution74()
-let matrix = [[1,3,5,7], [10,11,16,20], [23,30,34,50]]
-print(solution74.searchMatrix(matrix, 3))
-print(solution74.searchMatrix(matrix, 13))
-print(solution74.searchMatrix([], 0))
+//let solution74 = Solution74()
+//let matrix = [[1,3,5,7], [10,11,16,20], [23,30,34,50]]
+//print(solution74.searchMatrix(matrix, 3))
+//print(solution74.searchMatrix(matrix, 13))
+//print(solution74.searchMatrix([], 0))
 
 // MARK: - 704. Binary Search
-//let solution704 = Solution704()
+let solution704 = Solution704()
 //print(solution704.search([-1,0,3,5,9,12], 9))
 //print(solution704.search([-1,0,3,5,9,12], 2))
+//print(solution704.search1([-1,0,3,5,9,12], 4))
+//print(solution704.search2([4,5,5,5,5,5], 5))
+print(solution704.search3([-1,0,3,5,9,12], 5, 5))

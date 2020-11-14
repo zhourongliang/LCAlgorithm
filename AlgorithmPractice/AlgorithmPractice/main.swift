@@ -36,9 +36,18 @@ import Foundation
 //print(solution74.searchMatrix([], 0))
 
 // MARK: - 704. Binary Search
-let solution704 = Solution704()
+//let solution704 = Solution704()
 //print(solution704.search([-1,0,3,5,9,12], 9))
 //print(solution704.search([-1,0,3,5,9,12], 2))
 //print(solution704.search1([-1,0,3,5,9,12], 4))
 //print(solution704.search2([4,5,5,5,5,5], 5))
-print(solution704.search3([-1,0,3,5,9,12], 5, 5))
+//print(solution704.search3([-1,0,3,5,9,12], 5, 5))
+
+// MARK: - 912. Sort an Array
+let solution912 = Solution912()
+var array = [5, 1, 1, 2, 0, 0]
+//print(solution912.selectionSort(array))
+//print(solution912.mergeSort(array))
+//solution912.bubbleSort(&array)
+//print(array)
+print(solution912.insertionSort(array))

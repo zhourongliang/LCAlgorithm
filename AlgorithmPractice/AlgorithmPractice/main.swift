@@ -8,6 +8,12 @@
 
 import Foundation
 
+// MARK: - 1. Two Sum
+let solution1 = Solution1()
+print(solution1.twoSum([2, 7, 11, 15], 9))
+print(solution1.twoSum([3, 2, 4], 6))
+print(solution1.twoSum([3, 3], 6))
+
 // MARK: - 7. Reverse Integer
 //let solution7 = Solution7()
 //print(solution7.reverse(123))
@@ -44,10 +50,10 @@ import Foundation
 //print(solution704.search3([-1,0,3,5,9,12], 5, 5))
 
 // MARK: - 912. Sort an Array
-let solution912 = Solution912()
-var array = [5, 1, 1, 2, 0, 0]
+//let solution912 = Solution912()
+//var array = [5, 1, 1, 2, 0, 0]
 //print(solution912.selectionSort(array))
 //print(solution912.mergeSort(array))
 //solution912.bubbleSort(&array)
 //print(array)
-print(solution912.insertionSort(array))
+//print(solution912.insertionSort(array))

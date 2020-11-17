@@ -9,10 +9,13 @@
 import Foundation
 
 // MARK: - 1. Two Sum
-let solution1 = Solution1()
-print(solution1.twoSum([2, 7, 11, 15], 9))
-print(solution1.twoSum([3, 2, 4], 6))
-print(solution1.twoSum([3, 3], 6))
+//let solution1 = Solution1()
+//print(solution1.twoSum([2, 7, 11, 15], 9))
+//print(solution1.twoSum([3, 2, 4], 6))
+//print(solution1.twoSum([3, 3], 6))
+//
+//var numsSet: Set = [[1,4,5], [2,3]]
+//print(numsSet.contains([5,1,4]))
 
 // MARK: - 7. Reverse Integer
 //let solution7 = Solution7()
@@ -40,6 +43,10 @@ print(solution1.twoSum([3, 3], 6))
 //print(solution74.searchMatrix(matrix, 3))
 //print(solution74.searchMatrix(matrix, 13))
 //print(solution74.searchMatrix([], 0))
+
+// MARK: - 167. Two Sum II - Input array is sorted
+let solution167 = Solution167()
+print(solution167.twoSum([2, 7, 11, 15], 9))
 
 // MARK: - 704. Binary Search
 //let solution704 = Solution704()

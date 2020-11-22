@@ -114,4 +114,53 @@ class Solution912 {
         
         return nums
     }
+    
+    // MARK: - 快速排序，选择数组中的某个数作为基数，通过一趟排序将数组分割成独立的两部分，其中一部分所有数比基数小，另一部分数比基数大，然后再按照同样的方法对两部分数进行排序，循环递归
+    func quickSort(_ nums:inout [Int]) {
+        guard nums.count > 1 else {
+            return
+        }
+        
+        sort(&nums, 0, nums.count - 1)
+    }
+    
+    func sort(_ nums:inout [Int], _ low: Int, _ high: Int) {
+        if low < high {
+            // 一趟排序，返回交换后基数的索引
+            let pivotIndex = partition(&nums, low, high)
+            // 将基数左侧的数按同样的方式排序
+            sort(&nums, low, pivotIndex - 1)
+            // 将基数右侧的数按同样的方式排序
+            sort(&nums, pivotIndex + 1, high)
+        }
+    }
+    
+    func partition(_ nums:inout [Int], _ low: Int, _ high: Int) -> Int {
+        // 待排序数组的第一个数作为基数
+        let pivot = nums[low]
+        var i = low + 1
+        var j = high
+        
+        while i < j {
+            // 从右往左找第一个小于基数的数
+            while nums[j] >= pivot, j > i {
+                j -= 1
+            }
+            
+            // 从左往右找第一个大于基数的数
+            while nums[i] < pivot, i < j {
+                i += 1
+            }
+            
+            nums.swapAt(i, j)
+        }
+        
+        if pivot < nums[i] {
+            return low
+        } else {
+            // 最后小于基数的数在左侧，大于基数的数在右侧
+            nums.swapAt(low, i)
+            return i
+        }
+    }
 }

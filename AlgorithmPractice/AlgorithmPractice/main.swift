@@ -45,8 +45,8 @@ import Foundation
 //print(solution74.searchMatrix([], 0))
 
 // MARK: - 167. Two Sum II - Input array is sorted
-let solution167 = Solution167()
-print(solution167.twoSum([2, 7, 11, 15], 9))
+//let solution167 = Solution167()
+//print(solution167.twoSum([2, 7, 11, 15], 9))
 
 // MARK: - 704. Binary Search
 //let solution704 = Solution704()
@@ -57,10 +57,12 @@ print(solution167.twoSum([2, 7, 11, 15], 9))
 //print(solution704.search3([-1,0,3,5,9,12], 5, 5))
 
 // MARK: - 912. Sort an Array
-//let solution912 = Solution912()
-//var array = [5, 1, 1, 2, 0, 0]
+let solution912 = Solution912()
+var array = [5, 1, 1, 2, 0, 0]
 //print(solution912.selectionSort(array))
 //print(solution912.mergeSort(array))
 //solution912.bubbleSort(&array)
 //print(array)
 //print(solution912.insertionSort(array))
+solution912.quickSort(&array)
+print(array)

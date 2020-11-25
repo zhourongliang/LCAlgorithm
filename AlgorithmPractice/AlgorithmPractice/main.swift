@@ -44,6 +44,12 @@ import Foundation
 //print(solution74.searchMatrix(matrix, 13))
 //print(solution74.searchMatrix([], 0))
 
+// MARK: - 75. Sort Colors
+let solution75 = Solution75()
+var colors = [2,0,2,1,1,0]
+solution75.sortColors(&colors)
+print(colors)
+
 // MARK: - 167. Two Sum II - Input array is sorted
 //let solution167 = Solution167()
 //print(solution167.twoSum([2, 7, 11, 15], 9))
@@ -57,12 +63,12 @@ import Foundation
 //print(solution704.search3([-1,0,3,5,9,12], 5, 5))
 
 // MARK: - 912. Sort an Array
-let solution912 = Solution912()
-var array = [5, 1, 1, 2, 0, 0]
+//let solution912 = Solution912()
+//var array = [5, 1, 1, 2, 0, 0]
 //print(solution912.selectionSort(array))
 //print(solution912.mergeSort(array))
 //solution912.bubbleSort(&array)
 //print(array)
 //print(solution912.insertionSort(array))
-solution912.quickSort(&array)
-print(array)
+//solution912.quickSort(&array)
+//print(array)

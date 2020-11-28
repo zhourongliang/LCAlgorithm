@@ -38,7 +38,7 @@ class Solution704 {
                 return -1
             }
 
-        var left = 0, right = nums.count
+        var left = 0, right = nums.count - 1
         // 提前一步停下来，找到相邻的两个数
         while left < right - 1 {
             let mid = left + (right - left) / 2

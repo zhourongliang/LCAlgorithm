@@ -163,4 +163,44 @@ class Solution912 {
             return i
         }
     }
+    
+    /*
+     // 两个挡板，三个区域的解决思路
+     class Solution {
+         func sortArray(_ nums: [Int]) -> [Int] {
+             guard nums.count > 1 else {
+                 return nums
+             }
+
+             var nums = nums
+             quickSort(&nums, 0, nums.count - 1)
+             return nums
+         }
+         
+         func quickSort(_ nums: inout [Int], _ low: Int, _ high: Int) {
+             if low < high {
+                 let pivotIndex = partition(&nums, low, high)
+                 quickSort(&nums, low, pivotIndex - 1)
+                 quickSort(&nums, pivotIndex + 1, high)
+             }
+         }
+         
+         func partition(_ nums: inout [Int], _ low: Int, _ high: Int) -> Int {
+             let pivot = nums[low]
+             var i = low + 1, j = high
+             
+             while i <= j {
+                 if nums[j] >= pivot {
+                     j -= 1
+                 } else {
+                     nums.swapAt(i, j)
+                     i += 1
+                 }
+             }
+             nums.swapAt(low, j)
+             
+             return j
+         }
+     }
+     */
 }

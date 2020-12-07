@@ -8,6 +8,34 @@
 
 import Foundation
 
+class Stack912 {
+    var list: [Int]
+    init() {
+        list = [Int]()
+    }
+    func push(_ x: Int) {
+        list.append(x)
+    }
+    func pop() -> Int {
+        guard !self.isEmpty() else {
+            return -1 // 假设的
+        }
+        return list.removeLast()
+    }
+    func peek() -> Int {
+        guard !self.isEmpty() else {
+            return -1 // 假设的
+        }
+        return list.last!
+    }
+    func isEmpty() -> Bool {
+        return self.size() == 0
+    }
+    func size() -> Int {
+        return list.count
+    }
+}
+
 class Solution912 {
     // MARK: -选择排序：每次找出未排好序的那部分中的最小值
     func selectionSort(_ nums: [Int]) -> [Int] {
@@ -28,6 +56,57 @@ class Solution912 {
             }
         }
         return nums
+    }
+    
+    func selectionSortWithStack(_ nums: [Int]) -> [Int] {
+        guard nums.count > 1 else {
+            return nums
+        }
+        
+        let stack1 = Stack232() // 用来存放未排序的数
+        let stack2 = Stack232() // 用来按顺序存放已经排好序的数
+        for num in nums {
+            stack1.push(num)
+        }
+        
+        var max = -1
+        var counter = 0 //记录重复的
+        while !stack1.isEmpty() {
+            // 遍历stack1找出最大的
+            while !stack1.isEmpty() {
+                let num = stack1.pop()!
+                if num > max {
+                    max = num
+                    counter = 1
+                } else if num == max {
+                    counter += 1
+                }
+                stack2.push(num)
+            }
+            
+            // 过滤掉stack2中已经筛选出来的数，剩下的放回stack1
+            while !stack2.isEmpty() && stack2.peek()! <= max {
+                if let num = stack2.pop(), num != max {
+                    stack1.push(num)
+                }
+            }
+            
+            // 将最大的值添加到stack2
+            while counter > 0 {
+                stack2.push(max)
+                counter -= 1
+            }
+            
+            // 清空上一轮结果
+            max = -1
+            counter = 0
+        }
+        
+        var result = [Int]()
+        while !stack2.isEmpty() {
+            result.append(stack2.pop()!)
+        }
+        return result
     }
     
     // MARK: - 归并排序：理解递归

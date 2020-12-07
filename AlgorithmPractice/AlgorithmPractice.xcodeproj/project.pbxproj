@@ -19,6 +19,7 @@
 		CC9ADAC02562C1EB00BDD77B /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADABF2562C1EB00BDD77B /* 1. Two Sum.swift */; };
 		CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */; };
 		CCA5C883257E755F004DA76B /* 232. Implement Queue using Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */; };
+		CCA5C885257E7B16004DA76B /* 155. Min Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		CC9ADABF2562C1EB00BDD77B /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167. Two Sum II - Input array is sorted.swift"; sourceTree = "<group>"; };
 		CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
+		CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. Min Stack.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				61A9F175255389AE0022FE13 /* 13. Roman to Integer.swift */,
 				619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */,
 				CC3743F5256EB236006F391E /* 75. Sort Colors.swift */,
+				CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */,
 				CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */,
 				CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */,
 				CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */,
@@ -159,6 +162,7 @@
 				619A9FFD25595F5700546EE2 /* 74. Search a 2D Matrix.swift in Sources */,
 				61A9F176255389AE0022FE13 /* 13. Roman to Integer.swift in Sources */,
 				CC3743F6256EB236006F391E /* 75. Sort Colors.swift in Sources */,
+				CCA5C885257E7B16004DA76B /* 155. Min Stack.swift in Sources */,
 				61A9F1722550F32A0022FE13 /* 11. Container With Most Water.swift in Sources */,
 				CC9ADAC02562C1EB00BDD77B /* 1. Two Sum.swift in Sources */,
 				CC9ADABE255EDC4F00BDD77B /* 206. Reverse Linked List.swift in Sources */,

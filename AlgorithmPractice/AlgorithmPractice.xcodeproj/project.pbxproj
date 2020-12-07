@@ -18,6 +18,7 @@
 		CC9ADABE255EDC4F00BDD77B /* 206. Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */; };
 		CC9ADAC02562C1EB00BDD77B /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADABF2562C1EB00BDD77B /* 1. Two Sum.swift */; };
 		CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */; };
+		CCA5C883257E755F004DA76B /* 232. Implement Queue using Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		CC9ADABF2562C1EB00BDD77B /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167. Two Sum II - Input array is sorted.swift"; sourceTree = "<group>"; };
+		CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				CC3743F5256EB236006F391E /* 75. Sort Colors.swift */,
 				CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */,
 				CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */,
+				CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */,
 				619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */,
 				CC61CE8A2555957400861E40 /* 912. Sort an Array.swift */,
 			);
@@ -160,6 +163,7 @@
 				CC9ADAC02562C1EB00BDD77B /* 1. Two Sum.swift in Sources */,
 				CC9ADABE255EDC4F00BDD77B /* 206. Reverse Linked List.swift in Sources */,
 				CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */,
+				CCA5C883257E755F004DA76B /* 232. Implement Queue using Stacks.swift in Sources */,
 				61A9F17425512D860022FE13 /* 7. Reverse Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

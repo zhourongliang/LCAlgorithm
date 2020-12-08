@@ -20,6 +20,7 @@
 		CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */; };
 		CCA5C883257E755F004DA76B /* 232. Implement Queue using Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */; };
 		CCA5C885257E7B16004DA76B /* 155. Min Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */; };
+		CCA5C887257FCA3C004DA76B /* 876. Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C886257FCA3C004DA76B /* 876. Middle of the Linked List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167. Two Sum II - Input array is sorted.swift"; sourceTree = "<group>"; };
 		CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
 		CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. Min Stack.swift"; sourceTree = "<group>"; };
+		CCA5C886257FCA3C004DA76B /* 876. Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. Middle of the Linked List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */,
 				CCA5C882257E755F004DA76B /* 232. Implement Queue using Stacks.swift */,
 				619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */,
+				CCA5C886257FCA3C004DA76B /* 876. Middle of the Linked List.swift */,
 				CC61CE8A2555957400861E40 /* 912. Sort an Array.swift */,
 			);
 			path = AlgorithmPractice;
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA5C887257FCA3C004DA76B /* 876. Middle of the Linked List.swift in Sources */,
 				619A9FFA255942AA00546EE2 /* 704. Binary Search.swift in Sources */,
 				CC61CE8B2555957400861E40 /* 912. Sort an Array.swift in Sources */,
 				61A9F16B2550F1F00022FE13 /* main.swift in Sources */,

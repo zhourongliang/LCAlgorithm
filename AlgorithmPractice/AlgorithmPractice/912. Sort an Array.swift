@@ -37,7 +37,7 @@ class Stack912 {
 }
 
 class Solution912 {
-    // MARK: -选择排序：每次找出未排好序的那部分中的最小值
+    // MARK: - 选择排序：每次找出未排好序的那部分中的最小值
     func selectionSort(_ nums: [Int]) -> [Int] {
         guard nums.count > 1 else {
             return nums

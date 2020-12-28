@@ -72,4 +72,6 @@ var array = [5, 1, 1, 2, 0, 0]
 //print(solution912.insertionSort(array))
 //solution912.quickSort(&array)
 //print(array)
-print(solution912.selectionSortWithStack(array))
+//print(solution912.selectionSortWithStack(array))
+solution912.heapSort(&array)
+print(array)

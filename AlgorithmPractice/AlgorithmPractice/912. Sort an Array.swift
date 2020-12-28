@@ -282,4 +282,35 @@ class Solution912 {
          }
      }
      */
+    
+    // MARK -- 堆排序
+    func heapSort(_ arr: inout [Int]) {
+        for i in (0...(arr.count / 2 - 1)).reversed() {
+            adjustHeap(&arr, i, arr.count)
+        }
+
+        for j in (1...(arr.count - 1)).reversed() {
+            arr.swapAt(j, 0)
+            adjustHeap(&arr, 0, j)
+        }
+    }
+
+    func adjustHeap(_ arr: inout [Int], _ i: Int, _ length: Int) {
+        var i = i
+        var k = 2 * i + 1
+        while k < length {
+            if k + 1 < length, arr[k + 1] > arr[k] {
+                k = k + 1
+            }
+
+            if arr[i] < arr[k] {
+                arr.swapAt(i, k)
+                i = k
+            } else {
+                break
+            }
+
+            k = 2 * k + 1
+        }
+    }
 }

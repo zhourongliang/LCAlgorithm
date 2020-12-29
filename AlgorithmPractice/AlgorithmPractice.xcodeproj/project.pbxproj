@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6107EF0C259B3B9400CDE03B /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6107EF0B259B3B9400CDE03B /* 102. Binary Tree Level Order Traversal.swift */; };
 		619A9FFA255942AA00546EE2 /* 704. Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */; };
 		619A9FFD25595F5700546EE2 /* 74. Search a 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */; };
 		61A9F16B2550F1F00022FE13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9F16A2550F1F00022FE13 /* main.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6107EF0B259B3B9400CDE03B /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		619A9FF9255942AA00546EE2 /* 704. Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. Binary Search.swift"; sourceTree = "<group>"; };
 		619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "74. Search a 2D Matrix.swift"; sourceTree = "<group>"; };
 		61A9F1672550F1F00022FE13 /* AlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				CC3743F5256EB236006F391E /* 75. Sort Colors.swift */,
 				CC1005AE258A658F000D000E /* 98. Validate Binary Search Tree.swift */,
 				CC1005AC2589052E000D000E /* 101. Symmetric Tree.swift */,
+				6107EF0B259B3B9400CDE03B /* 102. Binary Tree Level Order Traversal.swift */,
 				CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */,
 				CC9ADAC12564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift */,
 				CC9ADABD255EDC4F00BDD77B /* 206. Reverse Linked List.swift */,
@@ -176,6 +179,7 @@
 				CC1005AD2589052E000D000E /* 101. Symmetric Tree.swift in Sources */,
 				CCA5C885257E7B16004DA76B /* 155. Min Stack.swift in Sources */,
 				61A9F1722550F32A0022FE13 /* 11. Container With Most Water.swift in Sources */,
+				6107EF0C259B3B9400CDE03B /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				CC9ADAC02562C1EB00BDD77B /* 1. Two Sum.swift in Sources */,
 				CC9ADABE255EDC4F00BDD77B /* 206. Reverse Linked List.swift in Sources */,
 				CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */,

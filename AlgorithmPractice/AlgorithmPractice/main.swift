@@ -44,6 +44,12 @@ import Foundation
 //print(solution74.searchMatrix(matrix, 13))
 //print(solution74.searchMatrix([], 0))
 
+// MARK: - 78. Subsets
+let solution78 = Solution78()
+let nums = [1,2,3]
+let subsets = solution78.subsets(nums)
+print(subsets)
+
 // MARK: - 75. Sort Colors
 //let solution75 = Solution75()
 //var colors = [2,0,2,1,1,0]
@@ -63,8 +69,8 @@ import Foundation
 //print(solution704.search3([-1,0,3,5,9,12], 5, 5))
 
 // MARK: - 912. Sort an Array
-let solution912 = Solution912()
-var array = [5, 1, 1, 2, 0, 0]
+//let solution912 = Solution912()
+//var array = [5, 1, 1, 2, 0, 0]
 //print(solution912.selectionSort(array))
 //print(solution912.mergeSort(array))
 //solution912.bubbleSort(&array)
@@ -73,5 +79,5 @@ var array = [5, 1, 1, 2, 0, 0]
 //solution912.quickSort(&array)
 //print(array)
 //print(solution912.selectionSortWithStack(array))
-solution912.heapSort(&array)
-print(array)
+//solution912.heapSort(&array)
+//print(array)

@@ -25,6 +25,7 @@
 		CCA5C885257E7B16004DA76B /* 155. Min Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */; };
 		CCA5C887257FCA3C004DA76B /* 876. Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C886257FCA3C004DA76B /* 876. Middle of the Linked List.swift */; };
 		CCDEA2FA25A756A800196D2E /* 78. Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEA2F925A756A800196D2E /* 78. Subsets.swift */; };
+		CCDEA2FC25A75BAC00196D2E /* 22. Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEA2FB25A75BAC00196D2E /* 22. Generate Parentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		CCA5C884257E7B16004DA76B /* 155. Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. Min Stack.swift"; sourceTree = "<group>"; };
 		CCA5C886257FCA3C004DA76B /* 876. Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. Middle of the Linked List.swift"; sourceTree = "<group>"; };
 		CCDEA2F925A756A800196D2E /* 78. Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "78. Subsets.swift"; sourceTree = "<group>"; };
+		CCDEA2FB25A75BAC00196D2E /* 22. Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. Generate Parentheses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				61A9F17325512D860022FE13 /* 7. Reverse Integer.swift */,
 				61A9F1712550F32A0022FE13 /* 11. Container With Most Water.swift */,
 				61A9F175255389AE0022FE13 /* 13. Roman to Integer.swift */,
+				CCDEA2FB25A75BAC00196D2E /* 22. Generate Parentheses.swift */,
 				619A9FFC25595F5700546EE2 /* 74. Search a 2D Matrix.swift */,
 				CC3743F5256EB236006F391E /* 75. Sort Colors.swift */,
 				CCDEA2F925A756A800196D2E /* 78. Subsets.swift */,
@@ -188,6 +191,7 @@
 				CC9ADAC22564138000BDD77B /* 167. Two Sum II - Input array is sorted.swift in Sources */,
 				CCA5C883257E755F004DA76B /* 232. Implement Queue using Stacks.swift in Sources */,
 				CCDEA2FA25A756A800196D2E /* 78. Subsets.swift in Sources */,
+				CCDEA2FC25A75BAC00196D2E /* 22. Generate Parentheses.swift in Sources */,
 				61A9F17425512D860022FE13 /* 7. Reverse Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

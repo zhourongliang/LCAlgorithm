@@ -37,6 +37,10 @@ import Foundation
 //print(solution13.romanToInt("LVIII"))
 //print(solution13.romanToInt("MCMXCIV"))
 
+// MARK: - 22. Generate Parentheses
+let solution22 = Solution22()
+print(solution22.generateParenthesis(3))
+
 // MARK: - 74. Search a 2D Matrix
 //let solution74 = Solution74()
 //let matrix = [[1,3,5,7], [10,11,16,20], [23,30,34,50]]
@@ -45,10 +49,10 @@ import Foundation
 //print(solution74.searchMatrix([], 0))
 
 // MARK: - 78. Subsets
-let solution78 = Solution78()
-let nums = [1,2,3]
-let subsets = solution78.subsets(nums)
-print(subsets)
+//let solution78 = Solution78()
+//let nums = [1,2,3]
+//let subsets = solution78.subsets(nums)
+//print(subsets)
 
 // MARK: - 75. Sort Colors
 //let solution75 = Solution75()

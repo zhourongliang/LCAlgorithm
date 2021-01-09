@@ -20,10 +20,11 @@ class Stack232 {
     }
     
     func pop() -> Int? {
-        if self.isEmpty() {
-            return 0
-        }
-        return list.removeLast()
+//        if self.isEmpty() {
+//            return 0
+//        }
+//        return list.removeLast()
+        return list.popLast()
     }
     
     func peek() -> Int? {

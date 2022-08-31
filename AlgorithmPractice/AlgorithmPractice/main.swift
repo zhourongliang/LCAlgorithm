@@ -39,7 +39,28 @@ import Foundation
 
 // MARK: - 22. Generate Parentheses
 let solution22 = Solution22()
-print(solution22.generateParenthesis(3))
+////print(solution22.generateParenthesis(3))
+//var result = [Int](repeating: 0, count: 4)
+////solution22.combinations(99, 0, &result)
+//
+//let str = "ABCD"
+////print(solution22.permutations(str))
+//let str1 = "student"
+////print(solution22.removeChars(str1))
+//
+//let str2 = "  abc a   ac "
+////print(solution22.charRemoval(str2))
+//let str3 = "aabb__ccd"
+////print(solution22.removeDuplication(str3))
+//
+//let str4 = "bbbbb"
+////print(solution22.deDuplicate(str4))
+//let str5 = "abcdefgdkjk"
+//let str6 = "fgb"
+////print(solution22.stringMatch(str5, str6))
+//
+//let str7 = "i love yahoo"
+//print(solution22.reverseWords(str7))
 
 // MARK: - 74. Search a 2D Matrix
 //let solution74 = Solution74()

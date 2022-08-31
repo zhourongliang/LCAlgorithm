@@ -16,17 +16,11 @@ class Stack912 {
     func push(_ x: Int) {
         list.append(x)
     }
-    func pop() -> Int {
-        guard !self.isEmpty() else {
-            return -1 // 假设的
-        }
-        return list.removeLast()
+    func pop() -> Int? {
+        return list.popLast()
     }
-    func peek() -> Int {
-        guard !self.isEmpty() else {
-            return -1 // 假设的
-        }
-        return list.last!
+    func peek() -> Int? {
+        return list.last
     }
     func isEmpty() -> Bool {
         return self.size() == 0
@@ -283,7 +277,7 @@ class Solution912 {
      }
      */
     
-    // MARK -- 堆排序
+    // MARK: -- 堆排序
     func heapSort(_ arr: inout [Int]) {
         for i in (0...(arr.count / 2 - 1)).reversed() {
             adjustHeap(&arr, i, arr.count)
